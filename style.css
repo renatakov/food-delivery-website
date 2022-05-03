@@ -54,7 +54,9 @@ header > img{
 }
 
 .delivery-food-form{
-
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 
 .delivery-food-form > button{
@@ -71,21 +73,72 @@ height: 50px;
   border-radius: 5px 5px 0px 0px;
   border: none;
   padding: 19px 10px 13px 13px;
+
+}
+
+.delivery-food-form > button:hover{
+  background: #FF7A50;
+  transition: 1.2s;
 }
 
 .delivery-food-form > input[type=text]{
   width: 400px;
   height: 30px;
   font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #C7C7C7;
+  background: #FFFFFF;
+  border: 1.3px solid #F2F2F2;
+  box-sizing: border-box;
+  box-shadow: 2px 4px 22px rgba(99, 41, 23, 0.07);
+  border-radius: 0px 1px 1px 1px;
+  padding: 28px;
+  margin-left: 467px;
+
+}
+
+.delivery-food-form > input[type=submit]{
+  width: 164px;
+  height: 55px;
+  border: none;
+  background: #FF7A50;
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 467px;
+}
+
+.food-categories{
+  display: flex;
+  width: 1171px;
+  height: 807px;
+  flex-wrap: wrap;
+  height:  75vh;
+  flex-direction: row;
+  margin: 375px;
+}
+
+.flex-item{
+  flex: 1;
+}
+
+.food-category{
+  margin: 375px;
+  font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 54px;
+/* identical to box height */
+
 text-transform: capitalize;
-color: #C7C7C7;
-background: #FFFFFF;
-border: 1.3px solid #F2F2F2;
-box-sizing: border-box;
-box-shadow: 2px 4px 22px rgba(99, 41, 23, 0.07);
-border-radius: 0px 1px 1px 1px;
-padding: 28px;
+color: #3D3D3D;
+
 }
