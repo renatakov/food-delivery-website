@@ -133,12 +133,109 @@ height: 50px;
 .food-category{
   margin: 375px;
   font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #3D3D3D;
+}
+
+.popular-foods-title{
+  font-style: normal;
 font-weight: 500;
 font-size: 36px;
 line-height: 54px;
 /* identical to box height */
 
 text-transform: capitalize;
-color: #3D3D3D;
 
+/* Color primary */
+
+color: #3D3D3D;
+text-align: center;
+
+
+}
+
+.popular-food-flex-container{
+  flex: 1;
+  display: inline-block;
+  border: 1px solid #F2F2F2;
+  border-radius: 10px;
+  width: 270px;
+  height: 400px;
+}
+
+.popular-food-flex-container:hover{
+  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.12);
+
+}
+
+.popular-food-flex-container > h4{
+  margin-left: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #3D3D3D;
+}
+
+.popular-food-flex-container > p{
+  margin-left: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #757575;
+}
+
+.rating-span{
+  width: 43px;
+  height: 23px;
+  background: #34C759;
+  border-radius: 3px;
+  color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 237px 13px 85px 214px;
+  text-transform: capitalize;
+}
+
+.no-underline-span{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #3D3D3D;
+  padding-left: 15px;
+
+}
+
+.underline-span{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: line-through;
+  text-transform: capitalize;
+  color: #757575;
+  padding-left: 15px;
+  opacity: 0.5;
+}
+
+.popular-foods-section{
+  width: 1170px;
+height: 935.5px;
+display: flex;
+  flex-wrap: wrap;
+  height:  75vh;
+  flex-direction: row;
+  margin-top: 285px;
+  margin-left: 375px;
 }
