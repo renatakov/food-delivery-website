@@ -233,6 +233,7 @@ text-align: center;
   width: 1170px;
 height: 935.5px;
 display: flex;
+gap: 30px;
   flex-wrap: wrap;
   height:  75vh;
   flex-direction: row;
